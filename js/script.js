@@ -24,7 +24,7 @@
 
 			// route for the contact page
 			.when('/contact', {
-				templateUrl : 'pages/contact.html',
+				templateUrl : 'pages/contactus.html',
 				controller  : 'contactController'
 			});
 	});

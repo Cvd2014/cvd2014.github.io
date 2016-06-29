@@ -437,10 +437,12 @@ body {
 @media(min-width:768px) {
     .duty-intro {
         height: 100%;
-        padding: 80px;3
+        padding: 80px;
         padding-top:1000px;
     }
 }
+
+
 
 .download-duty {
     width: 100%;

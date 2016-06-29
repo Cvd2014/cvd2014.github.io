@@ -1,17 +1,15 @@
 <h2>Send e-mail to walkinstown@stjohn.ie:</h2>
 
 
-<form action="formtoemail.php" method="post" enctype="text/plain">
-		Name:<br>
-		<input type="text" name="name" value="your name"><br>
-		E-mail:<br>
-		<input type="text" name="mail" value="your email"><br>
-		Subject:<br>
-		<input type="text" name ="subject" value="subject"><br>
-		Comment:<br>
-		<input type="textarea" name="comment" value="your comment" size="50"><br><br>
-		<input class="formbutton" type="submit" value="Send">
-		<input class="formbutton" type="reset" value="Reset">
+<form method="post" name="myemailform" action="form-to-email.php">
+ 
+		Enter Name: <input type="text" name="name">
+ 
+		Enter Email Address:    <input type="text" name="email">
+ 
+		Enter Message:  <textarea name="message"></textarea>
+ 
+		<input type="submit" value="Send Form">
 </form>
 
 

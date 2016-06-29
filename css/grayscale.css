@@ -445,7 +445,7 @@ body {
 
 
 .download-duty {
-    width: 100%;
+    width: 100vw;
     padding: 200px 0;
     color: transparent;
     background: url(../img/hike2.png) no-repeat center center scroll;
